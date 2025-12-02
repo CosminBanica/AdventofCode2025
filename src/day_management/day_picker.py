@@ -1,9 +1,11 @@
 """
 This module contains the DayPicker class.
 """
+from src.day2.day2_solver import Day2Solver
 from src.day1.day1_solver import Day1Solver
 
 day_solver_map = {
+    2: Day2Solver,
     1: Day1Solver,
 }
 
